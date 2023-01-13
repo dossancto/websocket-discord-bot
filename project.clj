@@ -12,6 +12,7 @@
                  [org.clojure/tools.logging "1.2.4"]
                  [com.github.johnnyjayjay/slash "0.3.0-SNAPSHOT"]]
   :main ^:skip-aot first-webhook-bot.handler
+  :uberjar-name "first-webhook-bot"
   :target-path "target/%s"
   :profiles
   {:dev {:dependencies [[com.github.discljord/discljord "1.3.1"]]}
