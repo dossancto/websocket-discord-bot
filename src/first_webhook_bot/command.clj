@@ -18,4 +18,5 @@
 
 (defpaths command-paths
   #'chat-handler
+  #'destruct-message-handler
   #'greet-handler)
