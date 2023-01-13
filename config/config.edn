@@ -1,0 +1,2 @@
+{;; Server configuration (see http://http-kit.github.io/server.html)
+ :server {:port 8090}}
